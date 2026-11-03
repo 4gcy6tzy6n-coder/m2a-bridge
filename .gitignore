@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+runs/**/staging/
+runs/**/debug/logs/
+runs/**/code_snapshot/
+.DS_Store

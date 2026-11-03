@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\burl{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\bibcommenthead
+
+\bibitem{fuller2014flying}
+\bibinfo{author}{Fuller, S.~B.}, \bibinfo{author}{Straw, A.~D.},
+  \bibinfo{author}{Peek, M.~Y.}, \bibinfo{author}{Murray, R.~C.} \&
+  \bibinfo{author}{Dickinson, M.~H.}
+\newblock \bibinfo{title}{Flying drosophila stabilize their vision-based
+  velocity controller by sensing wind with their antennae}.
+\newblock \emph{\bibinfo{journal}{PNAS}} \textbf{\bibinfo{volume}{111}},
+  \bibinfo{pages}{4125--4130} (\bibinfo{year}{2014}).
+
+\bibitem{bartussek2016proprioceptive}
+\bibinfo{author}{Bartussek, J.} \& \bibinfo{author}{Lehmann, F.~O.}
+\newblock \bibinfo{title}{Proprioceptive feedback determines visuomotor gain in
+  drosophila}.
+\newblock \emph{\bibinfo{journal}{R Soc Open Sci}}
+  \textbf{\bibinfo{volume}{3}}, \bibinfo{pages}{150562} (\bibinfo{year}{2016}).
+
+\bibitem{sherman2004summation}
+\bibinfo{author}{Sherman, A.} \& \bibinfo{author}{Dickinson, M.~H.}
+\newblock \bibinfo{title}{Summation of visual and mechanosensory feedback in
+  drosophila flight control}.
+\newblock \emph{\bibinfo{journal}{J Exp Biol}} \textbf{\bibinfo{volume}{207}},
+  \bibinfo{pages}{727--734} (\bibinfo{year}{2004}).
+
+\bibitem{kim2015cellular}
+\bibinfo{author}{Kim, A.~J.}, \bibinfo{author}{Fitzgerald, J.~K.} \&
+  \bibinfo{author}{Maimon, G.}
+\newblock \bibinfo{title}{Cellular evidence for efference copy in drosophila
+  visuomotor processing}.
+\newblock \emph{\bibinfo{journal}{Nature Neuroscience}}
+  \textbf{\bibinfo{volume}{18}}, \bibinfo{pages}{1247--1255}
+  (\bibinfo{year}{2015}).
+
+\bibitem{warzecha2000response}
+\bibinfo{author}{Warzecha, A.} \& \bibinfo{author}{Egelhaaf, M.}
+\newblock \bibinfo{title}{Response latency of a motion-sensitive neuron in the
+  fly visual system: dependence on stimulus parameters and physiological
+  conditions}.
+\newblock \emph{\bibinfo{journal}{Vision Res}} \textbf{\bibinfo{volume}{40}},
+  \bibinfo{pages}{3383--3395} (\bibinfo{year}{2000}).
+
+\bibitem{canelo2024efference}
+\bibinfo{author}{Canelo, A.}, \bibinfo{author}{Kim, Y.}, \bibinfo{author}{Park,
+  J.} \& \bibinfo{author}{Kim, A.~J.}
+\newblock \bibinfo{title}{A visual efference copy-based navigation algorithm in
+  drosophila for complex visual environments}.
+\newblock \emph{\bibinfo{journal}{eLife Reviewed Preprint}}
+  \textbf{\bibinfo{volume}{93487}} (\bibinfo{year}{2024}).
+
+\bibitem{tanaka2023neural}
+\bibinfo{author}{Tanaka, R.} \emph{et~al.}
+\newblock \bibinfo{title}{Neural mechanisms to incorporate visual
+  counterevidence in self-movement estimation}.
+\newblock \emph{\bibinfo{journal}{Curr Biol}} \textbf{\bibinfo{volume}{33}},
+  \bibinfo{pages}{4960--4979.e7} (\bibinfo{year}{2023}).
+
+\bibitem{fischer2022multiple}
+\bibinfo{author}{Fischer, P.} \& \bibinfo{author}{Schnell, B.}
+\newblock \bibinfo{title}{Multiple mechanisms mediate the suppression of motion
+  vision during escape maneuvers in flying drosophila}.
+\newblock \emph{\bibinfo{journal}{iScience}} \textbf{\bibinfo{volume}{25}},
+  \bibinfo{pages}{105143} (\bibinfo{year}{2022}).
+
+\bibitem{rayshubskiy2025neural}
+\bibinfo{author}{Rayshubskiy, A.} \emph{et~al.}
+\newblock \bibinfo{title}{Neural circuit mechanisms for steering control in
+  walking drosophila}.
+\newblock \emph{\bibinfo{journal}{Curr Biol}}  (\bibinfo{year}{2025}).
+
+\bibitem{currier2018multisensory}
+\bibinfo{author}{Currier, B.~J.} \& \bibinfo{author}{Nagel, K.~I.}
+\newblock \bibinfo{title}{Multisensory control of orientation in tethered
+  flying drosophila}.
+\newblock \emph{\bibinfo{journal}{Curr Biol}} \textbf{\bibinfo{volume}{28}},
+  \bibinfo{pages}{3667--3679} (\bibinfo{year}{2018}).
+
+\end{thebibliography}

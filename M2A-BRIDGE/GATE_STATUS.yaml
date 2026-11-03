@@ -1,0 +1,42 @@
+project: M2A-BRIDGE
+date: 2026-10-27
+status:
+  M2A_ORIGINAL: FROZEN_HISTORICAL_EVIDENCE
+  ROUTE_A_ORIGINAL: FROZEN_HISTORICAL_AUDIT
+  M2A_BRIDGE: PROPOSED_NOT_PREREGISTERED
+  BIO_DATA_FIELD_LEVEL_ELIGIBILITY: PARTIAL
+  BIO_INTERVENTIONAL_CONFIRMATION: NOT_STARTED
+  AI_MATCHED_OOD_CONFIRMATION: NOT_STARTED
+  JOINT_MECHANISM_TEST: NOT_STARTED
+  NATURE_ARTICLE_SCIENTIFIC_GATE: NOT_PASSED
+  NATURE_SUBMISSION_READY: false
+gates:
+  G0: PARTIAL
+  G0-A: PASS_WITH_CAVEAT
+  G0-B: FAIL_NO_LAB
+  G0-C: PARTIAL
+  G0-D: CONDITIONAL_PASS
+  G1: CONDITIONAL_PASS_NARROW
+  G2: NOT_STARTED
+  G3: NOT_STARTED
+  G4: NOT_STARTED
+  G5: NOT_STARTED
+decision: GO_PILOT
+authorized:
+  - public_data_field_audit
+  - computational_pilot
+  - minimal_smoke_test_under_round_gate
+  - preregistration_draft
+not_authorized:
+  - confirmatory_biological_experiment
+  - new_animal_or_intervention
+  - nature_flagship_claim
+  - simulation_as_biological_confirmation
+evidence:
+  prior_art_matrix: 01_PRIOR_ART_AND_NOVELTY_MATRIX.csv
+  data_eligibility: 02_DATA_FEASIBILITY/BIO_DATA_ELIGIBILITY.csv
+  data_access_report: 02_DATA_FEASIBILITY/DATA_ACCESS_REPORT.md
+  competing_mechanisms: 03_THEORY/COMPETING_MECHANISMS_v0.md
+  competing_predictions: 03_THEORY/COMPETING_PREDICTIONS_v0.csv
+  legacy_boundary: 07_AUDIT/LEGACY_EVIDENCE_BOUNDARY.md
+  decision: G0_G1_FEASIBILITY_DECISION.md
