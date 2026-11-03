@@ -1,7 +1,0 @@
-flyvis==1.2.0
-flygym==2.1.1
-torch==2.14.1
-mujoco==3.16.0
-numpy==2.5.4
-scipy==1.18.1
-psutil==7.2.2
